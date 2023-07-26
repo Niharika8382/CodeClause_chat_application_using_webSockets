@@ -1,0 +1,82 @@
+h1{
+   margin-top: 12px;
+   font-size: 30px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-style:inherit;
+   font-weight: 600;
+   text-align: center;
+   color:whitesmoke;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 955px;
+    border: 1px solid rgb(105, 46, 131);
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(237, 190, 230);
+    width: 24%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 32px;
+    background-color: rgb(241, 227, 236);
+}
+#messageInp:hover{
+    box-shadow: 2px 2px rgba(204, 209, 200, 0.97);
+
+}
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    background-color: rgb(241, 227, 236);
+    
+}
+.btn:hover{
+    box-shadow: 0px 3px 6px rgba(204, 209, 200, 0.97);
+}
